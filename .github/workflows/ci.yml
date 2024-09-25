@@ -59,4 +59,4 @@ jobs:
       run: php artisan key:generate
 
     - name: Run Unit Tests with Pest
-      run: ./vendor/bin/pest --env=testing
+      run: ./vendor/bin/pest 
