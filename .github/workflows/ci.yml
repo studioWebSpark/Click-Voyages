@@ -57,3 +57,6 @@ jobs:
 
     - name: Generate Laravel app key
       run: php artisan key:generate
+
+    - name: Run Unit Tests with Pest
+      run: ./vendor/bin/pest --env=testing
