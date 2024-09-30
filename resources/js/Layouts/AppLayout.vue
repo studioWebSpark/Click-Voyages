@@ -54,6 +54,21 @@ const logout = () => {
                                 <NavLink :href="route('dashboard')" :active="route().current('dashboard')">
                                     Tableau de bord
                                 </NavLink>
+                                <NavLink :href="route('agence')" :active="route().current('agence')">
+                                    Agences
+                                </NavLink>
+                                <NavLink :href="route('utilisateur')" :active="route().current('utilisateur')">
+                                    Commerciaux
+                                </NavLink>
+                                <NavLink :href="route('nbclick')" :active="route().current('nbclick')">
+                                    Nombre de clics
+                                </NavLink>
+                                <NavLink :href="route('avis')" :active="route().current('avis')">
+                                    Avis clients
+                                </NavLink>
+                                <NavLink :href="route('favoris')" :active="route().current('favoris')">
+                                    Favoris
+                                </NavLink>
                             </div>
                         </div>
 
@@ -215,6 +230,22 @@ const logout = () => {
                         <ResponsiveNavLink :href="route('dashboard')" :active="route().current('dashboard')">
                             Tableau de bord
                         </ResponsiveNavLink>
+                        <ResponsiveNavLink :href="route('agence')" :active="route().current('agence')">
+                            Agence
+                        </ResponsiveNavLink>
+                        <ResponsiveNavLink :href="route('utilisateur')" :active="route().current('utilisateur')">
+                            Commerciaux
+                        </ResponsiveNavLink>
+                        <ResponsiveNavLink :href="route('nbclick')" :active="route().current('nbclick')">
+                            Nombre de clics
+                        </ResponsiveNavLink>
+                        <ResponsiveNavLink :href="route('avis')" :active="route().current('avis')">
+                            Avis clients
+                        </ResponsiveNavLink>
+                        <ResponsiveNavLink :href="route('favoris')" :active="route().current('favoris')">
+                            Favoris
+                        </ResponsiveNavLink>
+
                     </div>
 
                     <!-- Responsive Settings Options -->
